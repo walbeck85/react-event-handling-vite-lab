@@ -49,11 +49,57 @@ You are working with a client to create a new password input within their websit
 ### Call Function in Respective Event
 
 ## Task 4: Test and Refine
-- Debugging and testing during coding
+- Use testing libraries like Jest and React Testing Library to set up a testing environment for React components.
+- Mock event handlers using Jest to isolate event listener behavior.
+- Confirm that state changes occur correctly by checking DOM updates.
+- Test edge cases, such as rapid input or multiple hovers, to ensure handlers perform correctly.
 
 ## Task 5: Document and Maintain
+
+- All components contain inline comments for maintainability.
+- Event handler functions follow the `handleEventName` naming convention for clarity.
+- Refer to the screenshot below for visual confirmation of component layout.
+
 
 ## Tools and Resources
 - **GitHub Repository:** [React Event Handling Vite Lab](https://github.com/learn-co-curriculum/react-event-handling-vite-lab)
 - **Event Handling in React:** [React Documentation](https://react.dev/learn/responding-to-events#adding-event-handlers)
+
+
+## Setup and Installation
+
+To run this project locally:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/walbeck85/react-event-handling-vite-lab.git
+   cd react-event-handling-vite-lab
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Run Tests with Vitest:**
+   ```bash
+   npx vitest
+   ```
+
+> Note: Ensure you are using Node.js version 18 or higher for full compatibility with Vite and Vitest. 
+You can check your version using `node -v`.
+
+
+## Screenshot
+
+![Password Input Lab Screenshot](https://imgur.com/a/3zxcbYo)
+
+## GitHub Repository
+
+[https://github.com/walbeck85/react-event-handling-vite-lab](https://github.com/walbeck85/react-event-handling-vite-lab)
 
